@@ -1,13 +1,26 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(array) # code an argument here
+  array.map do |x|
+    puts "#{array.index(x)+1} #{x}"
+  end
+  #this seems simpler than whatever the documentation for "each_with_index" is saying. I'll look at it again later.
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(array)
+    array.map! do |x|
+    x.capitalize()+"!"
+  end
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+    array.any? do |x| x.length < 4
+end
+#  value = false
+#  for a in array
+##    if a.length > 4
+#      value = true
+#    end
+#  end
+#  return value
 end
 
 def find_the_cheese# code an argument here
