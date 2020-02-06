@@ -17,6 +17,7 @@ def long_planeteer_calls(array)
 #end
 
 max=array.max
+pp max
 if max.length >= 4
   return true
 else
