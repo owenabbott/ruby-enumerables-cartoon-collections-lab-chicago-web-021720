@@ -20,7 +20,7 @@ max=array.max
 if max.length >= 4
   return true
 else
-  false
+  return false
 end
 
 #  value = false
