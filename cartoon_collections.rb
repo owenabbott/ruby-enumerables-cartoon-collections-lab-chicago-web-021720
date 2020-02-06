@@ -15,12 +15,13 @@ def long_planeteer_calls(array)
     array.any? do |x| x.length > 4
 end
 
-#max=array.max()
-#if max.length >= 4
+#max=array.max
+#if max.length > 4
 #  return true
 #else
 #  return false
 #end
+#this works but it's a lot of lines.
 
 #  value = false
 #  for a in array
@@ -32,7 +33,8 @@ end
 #this works but isn't an enumerable. Just wrote it for practice.
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(array)
+  for a in array
+    a.include?()
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
