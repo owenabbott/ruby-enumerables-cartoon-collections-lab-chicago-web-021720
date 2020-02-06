@@ -12,8 +12,13 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-    array.any? do |x| x.length < 4
-end
+#    array.any? do |x| x.length < 4
+#this super confusingly doesn't work. It keeps returning true even when it shouldn't. Will figure it out one day, going to try a different enumerable to solve it.
+#end
+
+max=array.max
+max.length >= 4?
+
 #  value = false
 #  for a in array
 ##    if a.length > 4
@@ -21,6 +26,7 @@ end
 #    end
 #  end
 #  return value
+#this works but isn't an enumerable. Just wrote it for practice.
 end
 
 def find_the_cheese# code an argument here
