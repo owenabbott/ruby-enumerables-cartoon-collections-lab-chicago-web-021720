@@ -47,3 +47,4 @@ def find_the_cheese(array)
     end
     
 end
+#this feels like a lot of code, but I used an enumerable! so I win I guess? I'll get better at this as the course proceeds, of course.
