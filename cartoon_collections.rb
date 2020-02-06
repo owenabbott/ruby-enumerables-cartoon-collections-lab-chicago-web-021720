@@ -12,9 +12,8 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-#    array.any? do |x| x.length < 4
-#this super confusingly doesn't work. It keeps returning true even when it shouldn't. Will figure it out one day, going to try the max enumerable instead to solve it.
-#end
+    array.any? do |x| x.length < 4
+
 
 max=array.max
 pp max
