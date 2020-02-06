@@ -13,11 +13,15 @@ end
 
 def long_planeteer_calls(array)
 #    array.any? do |x| x.length < 4
-#this super confusingly doesn't work. It keeps returning true even when it shouldn't. Will figure it out one day, going to try a different enumerable to solve it.
+#this super confusingly doesn't work. It keeps returning true even when it shouldn't. Will figure it out one day, going to try the max enumerable instead to solve it.
 #end
 
 max=array.max
-max.length() >= 4?
+if max.length >= 4
+  return true
+else
+  false
+end
 
 #  value = false
 #  for a in array
