@@ -18,7 +18,6 @@ def long_planeteer_calls(array)
 
 max=array.max
 max.length >= 4?
-end
 
 #  value = false
 #  for a in array
